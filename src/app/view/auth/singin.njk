@@ -1,0 +1,12 @@
+{% extends "_layout/auth.njk" %}
+
+{% block body %}
+  <form action="/singin" method="post">
+      <img src="/images/logo.svg" height="42" alt="avatar"></img>
+      {% include "_partials/flash.njk" %}
+    <input type="email" name="email" placeholder="E-mail de cadastro">
+    <input type="password" name="password" placeholder="Senha secreta">
+    <button type="submit">Entrar</button>
+    <a href="/singup">Cadastrar-se</a>
+  </form>
+{% endblock %}

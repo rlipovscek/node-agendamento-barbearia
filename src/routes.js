@@ -44,6 +44,16 @@ class Routes {
    */
   agendamentosRoutes() {
     this.routes.get(
+      ENUN_ROUTES.AGENDAMENTOS.CONSULTAR_AGENDAMENTOS_DO_DIA.ROUTE,
+      this.appointmentsController.getAllFromThisMonth
+    );
+
+    this.routes.get(
+      ENUN_ROUTES.AGENDAMENTOS.CONSULTAR_AGENDAMENTOS_DO_MES.ROUTE,
+      this.appointmentsController.getAllFromThisMonth
+    );
+
+    this.routes.get(
       ENUN_ROUTES.AGENDAMENTOS.NOVO.ROUTE,
       this.appointmentsController.create
     );

@@ -290,3 +290,33 @@ ul.providers {
 .main-wrapper .content form button:hover {
   background: #634dac;
 }
+
+.main-wrapper .content .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.main-wrapper .content .alerta-agendamento {
+  margin-top: 3px;
+  font-size: 13px;
+  display: inherit;
+  align-items: flex-start;
+}
+
+.main-wrapper .content .consultar {
+  text-decoration: none;
+  padding: 5px;
+  margin: auto;
+  background-color: #7159c1;
+  margin-bottom: 40px;
+  display: inherit;
+  width: 92px;
+  justify-content: center;
+  text-align: center;
+  color: #f2f2d2;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}

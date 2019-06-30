@@ -29,6 +29,12 @@ const agendamento = {
   VERIFICAR_DISPONIBILIDADE: {
     ROUTE: "/app/available/:provider",
     VEW_ROUTE: "available/index"
+  },
+  CONSULTAR_AGENDAMENTOS_DO_DIA: {
+    ROUTE: "/app/appointments/:provider/today"
+  },
+  CONSULTAR_AGENDAMENTOS_DO_MES: {
+    ROUTE: "/app/appointments/:provider/mes"
   }
 };
 
